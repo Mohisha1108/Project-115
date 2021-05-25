@@ -1,0 +1,24 @@
+h1{
+    font-size: 30px !important;
+    pointer-events: none;
+}
+#btn:hover{
+    background-color: blue;
+}
+canvas{
+    border: 5px solid gray;
+    padding: 20px;
+    box-shadow: 10px 5px 20px gray;
+    border-radius: 10px;
+    animation: changeColor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes changeColor{
+    from{
+        box-shadow: 10px 5px 20px blue;
+    }
+    to{
+        box-shadow: 10px 5px 20px red;
+    }
+}
